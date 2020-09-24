@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: 07030607
+    url: jdbc:mysql://localhost:3306/bookportal?serverTimezone=UTC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        use_sql_comments: true

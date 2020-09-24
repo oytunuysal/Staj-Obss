@@ -1,0 +1,8 @@
+tr\com\obss\EmployeeCompany\repository\CompanyRepository.class
+tr\com\obss\EmployeeCompany\repository\EmployeeRepository.class
+tr\com\obss\EmployeeCompany\model\Company.class
+tr\com\obss\EmployeeCompany\model\Employee.class
+tr\com\obss\EmployeeCompany\controller\CompanyController.class
+tr\com\obss\EmployeeCompany\EmployeeCompanyApplication.class
+tr\com\obss\EmployeeCompany\service\EmployeeService.class
+tr\com\obss\EmployeeCompany\service\CompanyService.class

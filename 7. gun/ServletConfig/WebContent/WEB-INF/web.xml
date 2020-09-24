@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+	<servlet>
+		<servlet-name>RequestDispatch1</servlet-name>
+		<servlet-class>RequestDispatch</servlet-class>
+		<init-param>
+			<param-name>forwardorredirect</param-name>
+			<param-value>forward</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RequestDispatch1</servlet-name>
+		<url-pattern>/requestdispatch1</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>RequestDispatch2</servlet-name>
+		<servlet-class>RequestDispatch</servlet-class>
+		<init-param>
+			<param-name>forwardorredirect</param-name>
+			<param-value>redirect</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RequestDispatch2</servlet-name>
+		<url-pattern>/requestdispatch2</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+	<servlet>
+		<servlet-name>ServletRedirect</servlet-name>
+		<servlet-class>ServletRedirect</servlet-class>
+		<init-param>
+			<param-name>forwardorredirect</param-name>
+			<param-value>redirect</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletRedirect</servlet-name>
+		<url-pattern>/servletredirect</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>ServletForward</servlet-name>
+		<servlet-class>ServletForward</servlet-class>
+		<init-param>
+			<param-name>forwardorredirect</param-name>
+			<param-value>forward</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletForward</servlet-name>
+		<url-pattern>/servletforward</url-pattern>
+	</servlet-mapping>
+</web-app>

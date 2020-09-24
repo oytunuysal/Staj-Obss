@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+	<servlet>
+		<servlet-name>OriginServlet</servlet-name>
+		<servlet-class>OriginServlet</servlet-class>
+		<init-param>
+			<param-name>forward</param-name>
+			<param-value>forward</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OriginServlet</servlet-name>
+		<url-pattern>/OriginServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>DestinationServlet</servlet-name>
+		<servlet-class>DestinationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DestinationServlet</servlet-name>
+		<url-pattern>/DestinationServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<error-page>
+		<error-code>500</error-code>
+		<location>/ErrorServlet</location>
+	</error-page>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/error404.jsp</location>
+	</error-page>
+
+
+</web-app>

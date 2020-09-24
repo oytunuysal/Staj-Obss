@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>AtmServlet</servlet-name>
+		<servlet-class>AtmServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AtmServlet</servlet-name>
+		<url-pattern>/atmservlet</url-pattern>
+
+	</servlet-mapping>
+</web-app>
